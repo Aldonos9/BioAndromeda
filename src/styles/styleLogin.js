@@ -162,6 +162,61 @@ const styles = StyleSheet.create({
         // backgroundColor: '#6ee7b7' // ejemplo
         // pointerEvents: 'none' // útil si es decorativo
     },
+    brandLogoRing: {
+        width: 56,
+        height: 56,
+        borderRadius: 28,
+        padding: 2,                // anillo gradiente
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginRight: 10,
+        // Brillo sutil
+        shadowColor: '#00e5ff',
+        shadowOpacity: 0.35,
+        shadowRadius: 12,
+        shadowOffset: { width: 0, height: 4 },
+        elevation: 8,
+    },
+    brandLogo: {
+        width: 52,
+        height: 52,
+        borderRadius: 26,
+        backgroundColor: 'rgba(13,22,43,0.9)', // fondo para contraste
+    },
+    brandTitleRow: {
+        flexDirection: 'row',
+        alignItems: 'baseline',
+    },
+    brandTitleBio: {
+        color: '#8bfd78',   // verde suave del logo
+        fontWeight: '800',
+        fontSize: 18,
+        letterSpacing: 0.5,
+        marginRight: 2,
+    },
+    brandTitleAndro: {
+        color: '#7f9cf5',   // azul/lila suave
+        fontWeight: '800',
+        fontSize: 18,
+        letterSpacing: 0.5,
+    },
+    versionText: {
+        color: '#9fb3c8',
+        fontSize: 12,
+        marginTop: 4,
+        textAlign: 'center',
+    },
+    footerText: {
+        color: '#9fb3c8',
+        fontSize: 14,
+        marginTop: 20,
+        textAlign: 'center',
+    },
+    footerLink: {
+        color: '#00e5ff',
+        fontWeight: '700',
+    },
+    
 });
 
 export default styles;
