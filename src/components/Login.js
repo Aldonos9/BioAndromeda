@@ -18,7 +18,7 @@ import {
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'
-import styles from "src/style/styleLogin.js";
+import styles from "src/styles/styleLogin.js";
 
 // SIMULACIÓN de login a un backend.
 // Reemplaza esta función por tu llamada real a la API cuando la tengas.
