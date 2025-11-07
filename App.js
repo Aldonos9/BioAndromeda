@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { Provider as PaperProvider } from 'react-native-paper';
 
-import DashboardScreen from './Dashboardscreen';
+import DashboardScreen from './src/components/Login.js';
 
 export default function App() {
   return (
